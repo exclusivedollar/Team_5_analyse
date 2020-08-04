@@ -1,11 +1,12 @@
 def five_num_summary (items):
-    for items in gauteng:
-        items = np.quantile(gauteng,[1, .50, 0, .25, .75])
+    for item in items:
+        items = np.quantile(items,[1, .50, 0, .25, .75])
 
         max = round(items[0],2)
         median = round(items[1],2)
         min = round(items[2],2)
-        q1
+        q1 = round(items[3],2)
+        q3 = round(items[4],2)
+        dictionary = {'max':max, 'median':median, 'min':min, 'q1':q1, 'q3':q3}
 
-
-    return
+    return dictionary
