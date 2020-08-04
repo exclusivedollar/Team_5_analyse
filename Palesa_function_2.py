@@ -7,6 +7,7 @@ def five_num_summary (items):
         min = round(items[2],2)
         q1 = round(items[3],2)
         q3 = round(items[4],2)
+        
         dictionary = {'max':max, 'median':median, 'min':min, 'q1':q1, 'q3':q3}
 
     return dictionary
