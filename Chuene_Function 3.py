@@ -16,6 +16,7 @@ def date_parser(dates):                       # The function date_parser takes i
         my_list = date[: len(date) - 9]       
         date_only.append(my_list)             # Creating a sublist from my_list
         date_only[:]                          
-    return date_only                          # Return the date only in 'yyyy-mm-dd' format
+    # Return the date only in 'yyyy-mm-dd' format
+    return date_only 
 ### END FUNCTION
   
