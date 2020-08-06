@@ -40,4 +40,5 @@ def extract_municipality_hashtags(df):#takes pandas dataframe as input
     new_df['municipality'] = mun_list
     new_df['hashtags'] = final_hash
     
-    return new_df #returns the modified dataframe.
+    #returns the modified dataframe.
+    return new_df 
