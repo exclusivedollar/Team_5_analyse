@@ -3,7 +3,7 @@ def five_num_summary (items):
         items = np.quantile(items,[1, .50, 0, .25, .75])
         
 """" returns a five number summary from a list of items"""
-        max = round(items[0],2)
+        max = round(items[0],2) # all numerical values should be rounded to two decimal places
         median = round(items[1],2)
         min = round(items[2],2)
         q1 = round(items[3],2)
