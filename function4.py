@@ -1,6 +1,4 @@
 def extract_municipality_hashtags(df):#takes pandas dataframe as input
-    # your code here
-    
     """returns modified dataframe with a municipality and hashtag column"""
     
     # dictionary mapping official municipality twitter handles to the municipality name
