@@ -3,17 +3,6 @@ def extract_municipality_hashtags(df):#takes pandas dataframe as input
     
     """returns modified dataframe with a municipality and hashtag column"""
     
-    # dictionary mapping official municipality twitter handles to the municipality name
-    mun_dict = {
-    '@CityofCTAlerts' : 'Cape Town',
-    '@CityPowerJhb' : 'Johannesburg',
-    '@eThekwiniM' : 'eThekwini' ,
-    '@EMMInfo' : 'Ekurhuleni',
-    '@centlecutility' : 'Mangaung',
-    '@NMBmunicipality' : 'Nelson Mandela Bay',
-    '@CityTshwane' : 'Tshwane'
-}
-    
     new_df = pd.DataFrame([])  #Initialise new DataFrame
     mun_list = []    #Create a list to hold all municipality strings
     final_hash = []    #Create empty list to hold all the extracted hashtags.
