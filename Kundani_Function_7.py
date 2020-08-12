@@ -1,5 +1,4 @@
 def stop_words_remover(df): #takes in a pandas dataframe as input
-    # your code here
     """function to remove english stop words"""
 
     new_df = pd.DataFrame([]) #creat new dataframe
