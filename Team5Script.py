@@ -1,5 +1,4 @@
 def dictionary_of_metrics(items):
-    # your code here
     """returns a dictionary of the metrics from a list of items """
     dict = {'mean': round(np.mean(items), 2),
             'median': round(np.median(items), 2),
@@ -35,7 +34,7 @@ def date_parser(dates):
     return date_only
 
 
-def extract_municipality_hashtags(df):  '#takes pandas dataframe as input'
+def extract_municipality_hashtags(df):
 """returns modified dataframe with a municipality and hashtag column"""
     new_df = pd.DataFrame([])  '#Initialise new DataFrame'
     mun_list = []    '#Create a list to hold all municipality strings'
@@ -86,7 +85,7 @@ def word_splitter(df):
     return dframe 
 
     
-def stop_words_remover(df):  '#takes in a pandas dataframe as input'
+def stop_words_remover(df):
 """function to remove english stop words"""
     new_df = pd.DataFrame([])  '#creat new dataframe'
     tokenised_list = []  '# tokenised sentence'
