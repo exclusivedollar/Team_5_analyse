@@ -43,7 +43,7 @@ def stop_words_remover(df): #takes in a pandas dataframe as input
     new_df['Tweets'] = df['Tweets'] #creats copy of tweets column
     new_df['Date'] = df['Date']# creates copy of column Date
     
-    new_df['without stop words'] = tokenised_list # creates column "Without stop words" containing tokenised list
+    new_df['Without Stop Words'] = tokenised_list # creates column "Without stop words" containing tokenised list
     
     return new_df
 ### END FUNCTION
