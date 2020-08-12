@@ -10,9 +10,9 @@ def dictionary_of_metrics(items):
 
 
 def five_num_summary(items):
+    """" returns a five number summary from a list of items"""
     for item in items:
         items = np.quantile(items, [1, .50, 0, .25, .75])
-    """" returns a five number summary from a list of items"""
     max = round(items[0], 2)
     median = round(items[1], 2)
     min = round(items[2], 2)
@@ -22,20 +22,28 @@ def five_num_summary(items):
     return dictionary
 
 
-def date_parser(dates):
-    # Creating a new date list.
-    date_only = []
-    for date in dates:
-        my_list = date[:len(date)-9]
-# Append values from my list to date_only list.
-        date_only.append(my_list)
-        date_only[:]
-# returned list contains only the date in the 'yyyy-mm-dd' format.
+def date_parser(dates):  
+   """ This function takes as input a list of these datetime strings,
+    each string formatted as 'yyyy-mm-dd hh:mm:ss' 
+    and returns only the date in 'yyyy-mm-dd' format.
+    Parameters:
+    >
+    items: (list), list of datetime strings.
+    Returns:
+    >
+    returns a list of strings where each element in the
+    returned list contains only the date in the 'yyyy-mm-dd' format.""" 
+    date_only =[]  '# An empty date list (to add sublists in it in the for loop)'
+    for date in dates:  '# Setting up the condition'
+        my_list = date[: len(date) - 9]    
+        date_only.append(my_list)  '# Creating a sublist from my_list'
+        date_only[:]                     
+    '# Return the date only in 'yyyy-mm-dd' format'
     return date_only
 
 
 def extract_municipality_hashtags(df):
-"""returns modified dataframe with a municipality and hashtag column"""
+    """returns modified dataframe with a municipality and hashtag column"""
     new_df = pd.DataFrame([])  '#Initialise new DataFrame'
     mun_list = []    '#Create a list to hold all municipality strings'
     final_hash = []    '#Create empty list to hold all the extracted hashtags.'
@@ -86,7 +94,7 @@ def word_splitter(df):
 
     
 def stop_words_remover(df):
-"""function to remove english stop words"""
+    """function to remove english stop words"""
     new_df = pd.DataFrame([])  '#creat new dataframe'
     tokenised_list = []  '# tokenised sentence'
     for row in df['Tweets']:
