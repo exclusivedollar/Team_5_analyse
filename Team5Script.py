@@ -23,7 +23,7 @@ def five_num_summary(items):
 
 
 def date_parser(dates):  
-   """ This function takes as input a list of these datetime strings,
+    """ This function takes as input a list of these datetime strings,
     each string formatted as 'yyyy-mm-dd hh:mm:ss' 
     and returns only the date in 'yyyy-mm-dd' format.
     Parameters:
