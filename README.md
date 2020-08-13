@@ -62,11 +62,19 @@ _Technolgies & Platforms_
 
 ## **Setup**
 
-- Getting the package
-
 - Installing package
 
-- Configuring the package
+You can install the package onto any computer (with internet access).
+
+Issue the command below to install your package from GitHub.
+(make sure to replace your-name and your-repo with the appropriate text)
+
+https://github.com/exclusivedollar/Team_5_analyse.git
+
+If you need to install a later version of your package, then use:
+
+pip install --upgrade https://github.com/exclusivedollar/Team_5_analyse.git
+
 
 - Running the package
 
