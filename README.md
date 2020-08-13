@@ -7,7 +7,6 @@
 - [Technologies, Platforms and Knowledge Areas](#Technologies-Platforms-and-Knowledge-areas)
 - [Setup](#setup)
 - [Detailed Metric Functions](#detailed-metric-functions)
-- [Features](#features)
 - [Project Status](#project-status)
 - [Contribution](#contribution)
 - [Questions](#questions)
