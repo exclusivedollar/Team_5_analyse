@@ -78,9 +78,7 @@ pip install --upgrade https://github.com/exclusivedollar/Team_5_analyse.git
 
 - Running the package
 
-To run the package, 
-
-Open
+To run the package, open the command window or jupyter notebook
 
 import "packgae"
 
@@ -89,7 +87,7 @@ from the "package" import " the function"
 NB : For any function that is not running, please see the specific detailed metric functions below to understand the requirement for each.
 
 Need to import numpy and pandas.
-Also need to define your own dictionary mun_dict, dates and stop_words_dictionary to beable to execute all functions.
+Also need to define your own dictionary mun_dict, dates and stop_words_dictionary to beable to execute all functions to really make it your own.
 
 
 ---
