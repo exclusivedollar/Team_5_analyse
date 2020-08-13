@@ -270,7 +270,7 @@ The following contributors were equally involved in creating and executing this 
 
 ## **Questions**
 
-If you have any question, you can contact individually:
+If you have any question, you can contact us individually:
 
 Github profile : [Palesa Hlungwani](https://github.com/PTStace) ; [Lesedi Madumo](https://github.com/Lesedi-Coder) ; [Chuene Mokgokong](https://github.com/Grewies) ; [Kundani Netshiongolwe](https://github.com/K-Netshiongolwe) ; [Sammy Maakwana](https://github.com/exclusivedollar)
 
