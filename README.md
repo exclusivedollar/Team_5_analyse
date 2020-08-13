@@ -7,6 +7,7 @@
 - [Technologies, Platforms and Knowledge Areas](#Technologies-Platforms-and-Knowledge-areas)
 - [Setup](#setup)
 - [Detailed Metric Functions](#detailed-metric-functions)
+- [Features](#features)
 - [Project Status](#project-status)
 - [Contribution](#contribution)
 - [Questions](#questions)
@@ -15,7 +16,7 @@
 
 ## **General Information**
 
-A python function is a set of statements that take specified inputs and produce an output after performing computational requirements. The function is a convenient way to avoid repeatedly performing the same task all over again for different inputs. Apart from function that comes along with the python package, thus python built-in function such as return, print(), list() ,etc, we have other function that we can create as users, and those are called user-defined function. These functions would are really not different from the built-in for the reason that they make our work in terms of coding easier, readable and of course save time. Functions could be used in combination with each other on projects of different requiorements from a computational and approach point of view.
+A python function is a set of statements that take specified inputs and produce an output after performing computational requirements. The function is a convenient way to avoid repeatedly performing the same task all over again for different inputs. Apart from functions that comes along with the python package, there are python built-in function such as return, print(), list() ,etc, and other function that can be created as users which are called user-defined function. These functions are really not different from the built in functions for the reason that they make our work in terms of coding easier, readable and of course save time. Functions could be used in combination with each other on projects of different requiorements from a computational and approach point of view.
 
 The goal for this [project](https://github.com/exclusivedollar/Team_5_analyse) was to create a set of functions that describe useful metrics in Eskom 
 data. The project is scenario based, we placed the project on the context that we are Data Scietist working for Eskom and that the company requires certain metrics to be calculated for their analytics team. Our main project focus was to create 7 functions, that will be able to to process both numerical and text data using python to output metrics for the analytical team to use. The 7 functions were as follows:
@@ -61,19 +62,19 @@ _Technolgies & Platforms_
 
 ## **Setup**
 
-- Getting it 
+- Getting the package
 
-- Installing It
+- Installing package
 
-- Configuring It
+- Configuring the package
 
-- Running it
+- Running the package
 
 ---
 
 ## **Detailed Metric Functions**
 
-  This section hughlights the important elements necessary to understand each function from utilization perspective. It will touch on what each function does, the input, the parameters involved and the output of each.
+  This section highlights the important elements necessary to understand each function from utilization perspective. It will touch on what each function does, the input, the parameters involved and the output of each.
 
 ### **Function 1 :  Metric Dictionary**
 
